@@ -1,0 +1,22 @@
+<cast>
+    <hotspot>
+        <id>000</id>
+        <position>
+            <x>0.0</x>
+            <y>0.0</y> 
+            <z>0.0</z>
+        </position>
+        <description>I have some description</description>
+    </hotspot>
+
+    <hotspot>
+        <id>001</id>
+        <position>
+            <x>0.0</x>
+            <y>0.0</y> 
+            <z>0.0</z>
+        </position>
+        <description>I have some description</description>
+    </hotspot>
+
+</cast>

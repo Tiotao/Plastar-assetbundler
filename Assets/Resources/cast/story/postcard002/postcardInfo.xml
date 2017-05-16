@@ -1,0 +1,23 @@
+<postcard>
+    <year>1803</year>  
+
+<hotspot>
+        <id>000</id>
+        <position>
+            <x>-322</x>
+            <y>-66</y> 
+        </position>
+        <coolfact></coolfact>
+        <description>Now that we're a part of the Ottoman empire, several of the city's buildings have been repurposed. Bodrum Castle, built by the Knights of St. John of Malta between 1406-1522, has converted into a mosque by turkish Muslims. </description>
+    </hotspot>
+    <hotspot>
+        <id>001</id>
+        <position>
+            <x>156</x>
+            <y>-122</y> 
+        </position>
+       <coolfact>The mounted reliefs detail battles between centaurs, lapiths, Greeks, and Amazons.</coolfact>
+        <description>During the construction of Bodrum Castle between 1406-1522, reliefs and statues from the Mausoleum of Halicarnassus were taken from its ruins and mounted onto the castle walls. Touring the castle, you'll see that these are some of the details left in place when the castle changed hands from Christians to Muslims.
+</description>
+    </hotspot>
+</postcard>

@@ -1,0 +1,32 @@
+<cast>
+    <hotspot>
+        <id>000</id>
+        <position>
+            <x>-0.337</x>
+            <y>-0.039</y> 
+            <z>-0.547</z>
+        </position>
+        <description>In the tomb, the capitals were so far above the ground that it’s ionic elements were exaggerated to be seen from below.</description>
+    </hotspot>
+
+    <hotspot>
+        <id>001</id>
+        <position>
+            <x>-0.027</x>
+            <y>-0.8</y> 
+            <z>-0.366</z>
+        </position>
+        <description>This Ionic column was one of 36 that bounded the building's 411 pft perimeter.</description>
+    </hotspot>
+
+    <hotspot>
+        <id>002</id>
+        <position>
+            <x>0.468</x>
+            <y>0.99</y> 
+            <z>-0.766</z>
+        </position>
+        <description>The design of this sima includes lion heads with palmette and honeysuckle ornaments in between.</description>
+    </hotspot>
+
+</cast>

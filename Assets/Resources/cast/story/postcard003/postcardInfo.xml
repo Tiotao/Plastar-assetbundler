@@ -1,0 +1,23 @@
+<postcard>
+    <year>1852</year>  
+
+<hotspot>
+        <id>000</id>
+        <position>
+            <x>119</x>
+            <y>-203</y> 
+        </position>
+        <coolfact>Any treasure the tomb had wouldn't be found in excavations. Looters had reached the tomb long before Charles.
+        </coolfact>
+        <description>Our Mausoleum is in ruins but it's still popular, especially with Charles Newton of the British Museum digging it up. During your stay, you may get lucky and witness the discovery of another section of it. So far Charles has found walls, stairs, foundation, and decor from the tomb. </description>
+    </hotspot>
+    <hotspot>
+        <id>001</id>
+        <position>
+            <x>-26</x>
+            <y>39</y> 
+        </position>
+       <coolfact></coolfact>
+        <description>You'll notice from the houses in the background that the Mausoleum ruins are being dug up in an empty lot. Charles Newton, a British archeologist, found the tomb by studying early records, and then buying tracts of land that fit the details. This has saved his sponsor (British Museum) a lot of time and money on this project.</description>
+    </hotspot>
+</postcard>
