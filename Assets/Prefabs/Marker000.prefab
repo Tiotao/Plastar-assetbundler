@@ -9,50 +9,66 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1935448428472008}
+  m_RootGameObject: {fileID: 1127978986594226}
   m_IsPrefabParent: 1
---- !u!1 &1003061368510982
+--- !u!1 &1012822893791082
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4865078498190128}
+  - component: {fileID: 4446538405725098}
+  - component: {fileID: 114533817333369848}
   m_Layer: 0
-  m_Name: CastModel
+  m_Name: Hotspot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1076155672125728
+--- !u!1 &1021724906739418
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4998961539049462}
-  - component: {fileID: 33028567012153080}
-  - component: {fileID: 64949838916395824}
+  - component: {fileID: 4802575865303666}
+  - component: {fileID: 114836394029293926}
   m_Layer: 0
-  m_Name: Model
+  m_Name: Postcard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1108454411761158
+--- !u!1 &1080287494093022
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4862568119146066}
-  - component: {fileID: 33853960595089498}
-  - component: {fileID: 23918573090222748}
+  - component: {fileID: 4840823314649178}
+  - component: {fileID: 114832590834148560}
+  m_Layer: 0
+  m_Name: Hotspot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1110413890158094
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4392051859460510}
+  - component: {fileID: 33091842616903290}
+  - component: {fileID: 23410008175861426}
   m_Layer: 0
   m_Name: cast
   m_TagString: Untagged
@@ -60,266 +76,30 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1117681526677322
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4802484822846390}
-  - component: {fileID: 114185995781144218}
-  m_Layer: 0
-  m_Name: Postcard
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1192849061475676
+--- !u!1 &1127978986594226
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4389898800262280}
+  - component: {fileID: 4130458620659600}
+  - component: {fileID: 114237936391894578}
   m_Layer: 0
-  m_Name: Story
+  m_Name: Marker000
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1210917010613584
+--- !u!1 &1205317174817682
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4383022772573872}
-  - component: {fileID: 114818520608290296}
-  m_Layer: 0
-  m_Name: Hotspot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1252993876155358
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4824311877361258}
-  - component: {fileID: 114985449788846846}
-  m_Layer: 0
-  m_Name: Hotspot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1254609534679494
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4034600338902130}
-  m_Layer: 0
-  m_Name: BuildingModel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1280933266440702
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4566108395342854}
-  - component: {fileID: 114978056670019042}
-  m_Layer: 0
-  m_Name: Hotspot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1293790776981782
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4837377905124740}
-  m_Layer: 0
-  m_Name: Cast
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1323573835371184
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4490880598343668}
-  m_Layer: 0
-  m_Name: Building
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1327841313326226
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4167616436200138}
-  - component: {fileID: 114284779627145762}
-  m_Layer: 0
-  m_Name: DefaultSprites
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1338445251430938
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4072857631940500}
-  - component: {fileID: 114063862077578168}
-  m_Layer: 0
-  m_Name: Hotspot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1363406286260004
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4479167949548900}
-  - component: {fileID: 114084378824369050}
-  m_Layer: 0
-  m_Name: Hotspot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1363681779216710
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4466927758190910}
-  - component: {fileID: 114259396968471174}
-  m_Layer: 0
-  m_Name: Hotspot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1450780002562312
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4263221673164760}
-  - component: {fileID: 114841732663091234}
-  m_Layer: 0
-  m_Name: Hotspot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1487461557467024
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4410775516460524}
-  - component: {fileID: 114903408238888082}
-  m_Layer: 0
-  m_Name: Hotspot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1497075713295022
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4707239943977488}
-  - component: {fileID: 114859845553468114}
-  m_Layer: 0
-  m_Name: Hotspot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1676857010649844
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4240616480299908}
-  - component: {fileID: 114381721028427878}
-  m_Layer: 0
-  m_Name: Hotspot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1735633195273858
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4896828412309204}
+  - component: {fileID: 4723673775106796}
   m_Layer: 0
   m_Name: HotSpot2DContainter
   m_TagString: Untagged
@@ -327,31 +107,15 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1804940556903838
+--- !u!1 &1234565229117816
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4669056996723840}
-  - component: {fileID: 114502786594401736}
-  m_Layer: 0
-  m_Name: Hotspot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1820315216897428
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4251724674898658}
-  - component: {fileID: 114379436717886000}
+  - component: {fileID: 4532622999876500}
+  - component: {fileID: 114991715358442194}
   m_Layer: 0
   m_Name: Postcard
   m_TagString: Untagged
@@ -359,46 +123,30 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1826070195843594
+--- !u!1 &1240843334382734
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4471357332712718}
+  - component: {fileID: 4791725086498062}
   m_Layer: 0
-  m_Name: Animation
+  m_Name: BuildingModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1837339467367124
+--- !u!1 &1244097446399832
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4356075138356860}
-  - component: {fileID: 114097898740165718}
-  m_Layer: 0
-  m_Name: Postcard
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1847200804290568
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4604222722698156}
-  - component: {fileID: 114503468640264092}
+  - component: {fileID: 4457158648120168}
+  - component: {fileID: 114689616714249218}
   m_Layer: 0
   m_Name: Hotspot
   m_TagString: Untagged
@@ -406,16 +154,32 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1878803730524560
+--- !u!1 &1248818779138598
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4282662250509256}
-  - component: {fileID: 33623739025100484}
-  - component: {fileID: 23607120499677794}
+  - component: {fileID: 4947355371666092}
+  - component: {fileID: 114178226807772464}
+  m_Layer: 0
+  m_Name: Hotspot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1290062366764180
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4812061665474274}
+  - component: {fileID: 33031433948344160}
+  - component: {fileID: 23474924233995100}
   m_Layer: 0
   m_Name: rest
   m_TagString: Untagged
@@ -423,47 +187,30 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1880747013345394
+--- !u!1 &1303710939784312
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4426631617741532}
-  - component: {fileID: 114232195269385058}
+  - component: {fileID: 4553105883191390}
   m_Layer: 0
-  m_Name: Hotspot
+  m_Name: Animation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1893846785396240
+--- !u!1 &1390180797869354
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4472518649060128}
-  - component: {fileID: 114395838581417446}
-  m_Layer: 0
-  m_Name: Hotspot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1910989298823590
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4887687052646372}
-  - component: {fileID: 114121616103084260}
+  - component: {fileID: 4087521131338232}
+  - component: {fileID: 114696797650393454}
   m_Layer: 0
   m_Name: Postcard
   m_TagString: Untagged
@@ -471,31 +218,94 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1935448428472008
+--- !u!1 &1438988380393394
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4992213541118572}
+  - component: {fileID: 114592159774946372}
+  m_Layer: 0
+  m_Name: Hotspot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1449951660579516
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4881930250521612}
+  - component: {fileID: 114503007040793276}
+  m_Layer: 0
+  m_Name: Hotspot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1450186419929224
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4054102050589330}
+  - component: {fileID: 114690740717928732}
+  m_Layer: 0
+  m_Name: Hotspot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1465313557422672
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4336975697603620}
+  - component: {fileID: 114656826095644170}
+  m_Layer: 0
+  m_Name: Hotspot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1505280971645092
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4572937689061314}
-  - component: {fileID: 114464300934613876}
+  - component: {fileID: 4072009966387106}
   m_Layer: 0
-  m_Name: Marker
+  m_Name: Building
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1937768888185290
+--- !u!1 &1517860930389832
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4349827447243320}
-  - component: {fileID: 114689973294022552}
+  - component: {fileID: 4931991320813418}
+  - component: {fileID: 114910751488937662}
   m_Layer: 0
   m_Name: Postcard
   m_TagString: Untagged
@@ -503,476 +313,635 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4034600338902130
+--- !u!1 &1564547329189320
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4177685369331318}
+  - component: {fileID: 114505186453151644}
+  m_Layer: 0
+  m_Name: Hotspot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1586947238768780
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4254774695821742}
+  - component: {fileID: 114310165945402978}
+  m_Layer: 0
+  m_Name: Postcard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1603069177518312
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4781848678990954}
+  - component: {fileID: 33162056157609002}
+  - component: {fileID: 64242458250245286}
+  m_Layer: 0
+  m_Name: Model
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1622959907695708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4329470209675834}
+  m_Layer: 0
+  m_Name: Cast
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1686119642345466
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4129667677970968}
+  - component: {fileID: 114169572464890214}
+  m_Layer: 0
+  m_Name: Hotspot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1697418334813250
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4984111369025516}
+  - component: {fileID: 114287781058441682}
+  m_Layer: 0
+  m_Name: Hotspot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1744000369247010
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4375656203167218}
+  - component: {fileID: 114114279322079136}
+  m_Layer: 0
+  m_Name: Hotspot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1793129584363586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4673475015947434}
+  m_Layer: 0
+  m_Name: Story
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1883015304520244
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4717655803612012}
+  - component: {fileID: 114626410084248048}
+  m_Layer: 0
+  m_Name: Hotspot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1941735472486838
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4520400146845498}
+  - component: {fileID: 114118326016360152}
+  m_Layer: 0
+  m_Name: Hotspot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1974292830966158
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4337879922654356}
+  - component: {fileID: 114974142484359052}
+  m_Layer: 0
+  m_Name: DefaultSprites
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1979616228082036
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4870166347009032}
+  m_Layer: 0
+  m_Name: CastModel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4054102050589330
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1254609534679494}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4282662250509256}
-  - {fileID: 4862568119146066}
-  m_Father: {fileID: 4490880598343668}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4072857631940500
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1338445251430938}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4802484822846390}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4167616436200138
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1327841313326226}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4837377905124740}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4240616480299908
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1676857010649844}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4251724674898658}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4251724674898658
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1820315216897428}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4410775516460524}
-  - {fileID: 4240616480299908}
-  - {fileID: 4426631617741532}
-  - {fileID: 4566108395342854}
-  - {fileID: 4466927758190910}
-  m_Father: {fileID: 4389898800262280}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4263221673164760
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1450780002562312}
+  m_GameObject: {fileID: 1450186419929224}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.027, y: -0.8, z: -0.366}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4896828412309204}
+  m_Father: {fileID: 4723673775106796}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4282662250509256
+--- !u!4 &4072009966387106
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1878803730524560}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4034600338902130}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4349827447243320
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1937768888185290}
+  m_GameObject: {fileID: 1505280971645092}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4479167949548900}
-  m_Father: {fileID: 4389898800262280}
-  m_RootOrder: 1
+  - {fileID: 4791725086498062}
+  - {fileID: 4553105883191390}
+  m_Father: {fileID: 4130458620659600}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4356075138356860
+--- !u!4 &4087521131338232
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1837339467367124}
+  m_GameObject: {fileID: 1390180797869354}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4669056996723840}
-  - {fileID: 4472518649060128}
-  m_Father: {fileID: 4389898800262280}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4383022772573872
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1210917010613584}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.337, y: -0.039, z: -0.547}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4896828412309204}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4389898800262280
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1192849061475676}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4251724674898658}
-  - {fileID: 4349827447243320}
-  - {fileID: 4356075138356860}
-  - {fileID: 4887687052646372}
-  - {fileID: 4802484822846390}
-  m_Father: {fileID: 4572937689061314}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4410775516460524
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1487461557467024}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4251724674898658}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4426631617741532
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1880747013345394}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4251724674898658}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4466927758190910
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1363681779216710}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4251724674898658}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4471357332712718
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1826070195843594}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4490880598343668}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4472518649060128
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1893846785396240}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4356075138356860}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4479167949548900
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1363406286260004}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4349827447243320}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4490880598343668
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1323573835371184}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4034600338902130}
-  - {fileID: 4471357332712718}
-  m_Father: {fileID: 4572937689061314}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4566108395342854
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1280933266440702}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4251724674898658}
+  - {fileID: 4446538405725098}
+  - {fileID: 4947355371666092}
+  m_Father: {fileID: 4673475015947434}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4572937689061314
+--- !u!4 &4129667677970968
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1935448428472008}
+  m_GameObject: {fileID: 1686119642345466}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4532622999876500}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4130458620659600
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1127978986594226}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4490880598343668}
-  - {fileID: 4837377905124740}
-  - {fileID: 4389898800262280}
+  - {fileID: 4072009966387106}
+  - {fileID: 4329470209675834}
+  - {fileID: 4673475015947434}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4604222722698156
+--- !u!4 &4177685369331318
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1847200804290568}
+  m_GameObject: {fileID: 1564547329189320}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.337, y: -0.039, z: -0.547}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4887687052646372}
+  m_Father: {fileID: 4723673775106796}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4669056996723840
+--- !u!4 &4254774695821742
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1804940556903838}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4356075138356860}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4707239943977488
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1497075713295022}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4887687052646372}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4802484822846390
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1117681526677322}
+  m_GameObject: {fileID: 1586947238768780}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4072857631940500}
-  m_Father: {fileID: 4389898800262280}
-  m_RootOrder: 4
+  - {fileID: 4457158648120168}
+  m_Father: {fileID: 4673475015947434}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4824311877361258
+--- !u!4 &4329470209675834
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1252993876155358}
+  m_GameObject: {fileID: 1622959907695708}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4870166347009032}
+  - {fileID: 4337879922654356}
+  - {fileID: 4723673775106796}
+  m_Father: {fileID: 4130458620659600}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4336975697603620
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1465313557422672}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4532622999876500}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4337879922654356
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1974292830966158}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4329470209675834}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4375656203167218
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1744000369247010}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.468, y: 0.99, z: -0.766}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4896828412309204}
+  m_Father: {fileID: 4723673775106796}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4837377905124740
+--- !u!4 &4392051859460510
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1293790776981782}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4865078498190128}
-  - {fileID: 4167616436200138}
-  - {fileID: 4896828412309204}
-  m_Father: {fileID: 4572937689061314}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4862568119146066
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1108454411761158}
+  m_GameObject: {fileID: 1110413890158094}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4034600338902130}
+  m_Father: {fileID: 4791725086498062}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4865078498190128
+--- !u!4 &4446538405725098
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1003061368510982}
+  m_GameObject: {fileID: 1012822893791082}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4998961539049462}
-  m_Father: {fileID: 4837377905124740}
+  m_Children: []
+  m_Father: {fileID: 4087521131338232}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4887687052646372
+--- !u!4 &4457158648120168
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1910989298823590}
+  m_GameObject: {fileID: 1244097446399832}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4604222722698156}
-  - {fileID: 4707239943977488}
-  m_Father: {fileID: 4389898800262280}
-  m_RootOrder: 3
+  m_Children: []
+  m_Father: {fileID: 4254774695821742}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4896828412309204
+--- !u!4 &4520400146845498
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1735633195273858}
+  m_GameObject: {fileID: 1941735472486838}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4532622999876500}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4532622999876500
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1234565229117816}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4383022772573872}
-  - {fileID: 4263221673164760}
-  - {fileID: 4824311877361258}
-  m_Father: {fileID: 4837377905124740}
+  - {fileID: 4881930250521612}
+  - {fileID: 4129667677970968}
+  - {fileID: 4717655803612012}
+  - {fileID: 4336975697603620}
+  - {fileID: 4520400146845498}
+  m_Father: {fileID: 4673475015947434}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4553105883191390
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1303710939784312}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4072009966387106}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4673475015947434
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1793129584363586}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4532622999876500}
+  - {fileID: 4254774695821742}
+  - {fileID: 4802575865303666}
+  - {fileID: 4087521131338232}
+  - {fileID: 4931991320813418}
+  m_Father: {fileID: 4130458620659600}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4998961539049462
+--- !u!4 &4717655803612012
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1076155672125728}
+  m_GameObject: {fileID: 1883015304520244}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4532622999876500}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4723673775106796
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205317174817682}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4177685369331318}
+  - {fileID: 4054102050589330}
+  - {fileID: 4375656203167218}
+  m_Father: {fileID: 4329470209675834}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4781848678990954
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1603069177518312}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children: []
-  m_Father: {fileID: 4865078498190128}
+  m_Father: {fileID: 4870166347009032}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23607120499677794
+--- !u!4 &4791725086498062
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1240843334382734}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4812061665474274}
+  - {fileID: 4392051859460510}
+  m_Father: {fileID: 4072009966387106}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4802575865303666
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1021724906739418}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4840823314649178}
+  - {fileID: 4992213541118572}
+  m_Father: {fileID: 4673475015947434}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4812061665474274
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1290062366764180}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4791725086498062}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4840823314649178
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1080287494093022}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4802575865303666}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4870166347009032
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1979616228082036}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4781848678990954}
+  m_Father: {fileID: 4329470209675834}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4881930250521612
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1449951660579516}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4532622999876500}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4931991320813418
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1517860930389832}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4984111369025516}
+  m_Father: {fileID: 4673475015947434}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4947355371666092
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1248818779138598}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4087521131338232}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4984111369025516
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1697418334813250}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4931991320813418}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4992213541118572
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1438988380393394}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4802575865303666}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23410008175861426
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1878803730524560}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: ca69753bc80db00428f3e6a65d50d11a, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!23 &23918573090222748
-MeshRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1108454411761158}
+  m_GameObject: {fileID: 1110413890158094}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -998,33 +967,64 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!33 &33028567012153080
+--- !u!23 &23474924233995100
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1290062366764180}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: ca69753bc80db00428f3e6a65d50d11a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &33031433948344160
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1076155672125728}
-  m_Mesh: {fileID: 4300000, guid: 485014612099a7b42b7302192e05991c, type: 3}
---- !u!33 &33623739025100484
-MeshFilter:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1878803730524560}
+  m_GameObject: {fileID: 1290062366764180}
   m_Mesh: {fileID: 4300004, guid: 05a291db070609b4085bb6a98c00a7f1, type: 3}
---- !u!33 &33853960595089498
+--- !u!33 &33091842616903290
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1108454411761158}
+  m_GameObject: {fileID: 1110413890158094}
   m_Mesh: {fileID: 4300006, guid: 05a291db070609b4085bb6a98c00a7f1, type: 3}
---- !u!64 &64949838916395824
+--- !u!33 &33162056157609002
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1603069177518312}
+  m_Mesh: {fileID: 4300000, guid: 485014612099a7b42b7302192e05991c, type: 3}
+--- !u!64 &64242458250245286
 MeshCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1076155672125728}
+  m_GameObject: {fileID: 1603069177518312}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -1033,407 +1033,12 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 485014612099a7b42b7302192e05991c, type: 3}
---- !u!114 &114063862077578168
+--- !u!114 &114114279322079136
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1338445251430938}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a60e07a22e4c2eb4daf408c131b2d330, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _coolFact: Historians can trace back the term 'Mausoleum' to the tomb of King Mausolus,
-    as a derivative of his name.
-  _description: 'During your stay in Bodrum, Turkey, stop by the ruins of the Mausoleum
-    of Halicarnassus. One of seven ancient world wonders, you can see it''s remaining
-    foundation on site. Afterwards, stop by Bodrum Castle; you can still see the marble
-    used for fortification that was taken from the mausoleum.  '
-  _sprite: {fileID: 21300000, guid: f9abf6882df90d144b56fd2a0621b0c5, type: 3}
-  _position: {x: 149, y: -177}
---- !u!114 &114084378824369050
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1363406286260004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a60e07a22e4c2eb4daf408c131b2d330, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _coolFact: The Mausoleum of Halicarnassus withstood many city invasions until it
-    was finally destroyed by an earthquake in 1404.
-  _description: 'Now that the Castle of Bodrum is finished, it makes a nice city attraction.
-    Started in 1406, it took 500 years to finish. Walking in it, you''ll find pieces
-    of marble within the walls. Rumors of a turkish invasion led to taking marble
-    from the ruins of the Mausoleum of Halicarnassus, and use them for fortification. '
-  _sprite: {fileID: 21300000, guid: f32fede83749d1e43bfb7e3c1c31c347, type: 3}
-  _position: {x: -22, y: -38}
---- !u!114 &114097898740165718
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1837339467367124}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42f116f058fdb8f4f85f4a9a4d63f4d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _stories: []
-  _year: 1803
-  _frontImage: {fileID: 21300000, guid: 4363cf8837da20f41ad08b040f19c660, type: 3}
---- !u!114 &114121616103084260
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1910989298823590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42f116f058fdb8f4f85f4a9a4d63f4d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _stories: []
-  _year: 1852
-  _frontImage: {fileID: 21300000, guid: 21c136ed856112e4f805dfa4776d3748, type: 3}
---- !u!114 &114185995781144218
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1117681526677322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42f116f058fdb8f4f85f4a9a4d63f4d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _stories: []
-  _year: 2017
-  _frontImage: {fileID: 21300000, guid: ae7dfc164dec2844ebc2d358b4823e55, type: 3}
---- !u!114 &114232195269385058
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1880747013345394}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a60e07a22e4c2eb4daf408c131b2d330, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _coolFact: 'Artemisia was also Mausolus''s sister, and is rumored to mix a pinch
-    of his ashes with her daily glass of wine. '
-  _description: 'Our newest monument is our tomb for King Mausolus. Known for his
-    military and public works projects during his reign of Anatolia, his death left
-    his wife , Artemisia heartbroken. She commissioned the tomb to honor him, and
-    erected it on a hill overlooking the city. '
-  _sprite: {fileID: 21300000, guid: 3bc0fca1cdcd19741899ac75eb1e780c, type: 3}
-  _position: {x: 40.2, y: 39.3}
---- !u!114 &114259396968471174
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1363681779216710}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a60e07a22e4c2eb4daf408c131b2d330, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _coolFact: 'The most notable sculptor, Scopas, also directed the rebuilding of Temple
-    of Artemis at Ephesus. '
-  _description: Sculpting enthusiasts will love the tomb's statues of Greek gods and
-    reliefs of Greek mythical battles. Wanting King Mausolus's tomb to emulate Greek
-    culture, his wife hired sculptors to adorn the tomb. These four sculptors, Bryaxis,
-    Leochares, Scopas, and Timotheus, are famous throughout Greece.
-  _sprite: {fileID: 21300000, guid: 95c1a4e3969f30d45a650914c7d02ec7, type: 3}
-  _position: {x: -61, y: -168}
---- !u!114 &114284779627145762
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1327841313326226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3c5f75225dd0174fb70a0a0e7171a7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _description: Tap on the hotspots to learn about this cast.
-  _sprites:
-  - {fileID: 21300000, guid: 7ec961489a61b944182b48a55ab9b281, type: 3}
-  - {fileID: 21300000, guid: 0305d4ab4acaf1345bf28edf1f29ad18, type: 3}
-  - {fileID: 21300000, guid: 89f8614827d06a94787e5294f440f5b8, type: 3}
-  - {fileID: 21300000, guid: e300cb314bb2b914eaa8d567763626a1, type: 3}
-  - {fileID: 21300000, guid: f6e6ad04819f3e84eb37df91782c9f77, type: 3}
-  - {fileID: 21300000, guid: ef3c026391b414242b7731c88dd48b50, type: 3}
-  - {fileID: 21300000, guid: 1bdb518cf23091a4a8ce52cbefbaedbb, type: 3}
-  - {fileID: 21300000, guid: 1bcf6fcb73832e24f8aafb7a09f68719, type: 3}
-  - {fileID: 21300000, guid: 09456edb9ccfd734d8c24dd2c1e145c4, type: 3}
-  - {fileID: 21300000, guid: 5db33dea328707944bca90a9a8af3d5b, type: 3}
-  - {fileID: 21300000, guid: b80f49f62611c524fb99d2cacdfba4af, type: 3}
-  - {fileID: 21300000, guid: 33cbea685ab796940bcc9521bf55d336, type: 3}
-  - {fileID: 21300000, guid: 96c60917e3e2af04a827b0813997c518, type: 3}
-  - {fileID: 21300000, guid: f3819d002a380c04aa4e23e20eec6ab5, type: 3}
-  - {fileID: 21300000, guid: 8cbc8211371b15c49ad5c12a2f8989ab, type: 3}
-  - {fileID: 21300000, guid: d782069c761017941ac8ed980cbb3673, type: 3}
-  - {fileID: 21300000, guid: 056d8916293eb23438933319d932e5c0, type: 3}
-  - {fileID: 21300000, guid: ae0dca4ccb92ccf41ac05c555b40680d, type: 3}
-  - {fileID: 21300000, guid: 6ac45bd7900cf39499ca7fc71ef0c99b, type: 3}
---- !u!114 &114379436717886000
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1820315216897428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42f116f058fdb8f4f85f4a9a4d63f4d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _stories: []
-  _year: 350 BC
-  _frontImage: {fileID: 21300000, guid: 8349ccd461a95a140b08f34d920d5382, type: 3}
---- !u!114 &114381721028427878
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1676857010649844}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a60e07a22e4c2eb4daf408c131b2d330, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _coolFact: 'After coming into power, Mausolus moved Anatolia''s capital from Mylasa
-    to Halicarnassus. '
-  _description: The capital city of Anatolia has something for everyone, including
-    palaces, theaters, and temples. Our previous king, Mausolus, made sure that even
-    those with low income had access to paved squares, streets, and housing!
-  _sprite: {fileID: 21300000, guid: 29e0ec36463c4e24b99a1a9d8b64b1fb, type: 3}
-  _position: {x: 216.7, y: -40.4}
---- !u!114 &114395838581417446
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1893846785396240}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a60e07a22e4c2eb4daf408c131b2d330, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _coolFact: The mounted reliefs detail battles between centaurs, lapiths, Greeks,
-    and Amazons.
-  _description: "During the construction of Bodrum Castle between 1406-1522, reliefs
-    and statues from the Mausoleum of Halicarnassus were taken from its ruins and
-    mounted onto the castle walls. Touring the castle, you'll see that these are some
-    of the details left in place when the castle changed hands from Christians to
-    Muslims.\r\n"
-  _sprite: {fileID: 21300000, guid: 635d8ace6c5e0e748ab9fe6b051636b1, type: 3}
-  _position: {x: 156, y: -122}
---- !u!114 &114464300934613876
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1935448428472008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29ed777dd9fe5904dbe3cd8470f9a79d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _icon: {fileID: 21300000, guid: 700a911408e9af44d9324334de785e8d, type: 3}
-  _castName: Tomb of Mausolus
-  _castDescription: "This is a cast of the column design from the Tomb of Mausolus.
-    Officially the first \u201CMausoleum\u201D, it was built in the city of Halicarnassus
-    (now Bodrum, Turkey). "
-  _castLocationTime: "Bodrum, Turkey (c. c. 353 \u2013 350 BC)"
-  _frameCount: 19
-  _startingPoint: 0
-  _buildingMap: {fileID: 21300000, guid: e46a5b7603dc6a2438dce14491df4e11, type: 3}
-  _isVisited: 0
---- !u!114 &114502786594401736
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1804940556903838}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a60e07a22e4c2eb4daf408c131b2d330, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _coolFact: 
-  _description: 'Now that we''re a part of the Ottoman empire, several of the city''s
-    buildings have been repurposed. Bodrum Castle, built by the Knights of St. John
-    of Malta between 1406-1522, has converted into a mosque by turkish Muslims. '
-  _sprite: {fileID: 21300000, guid: 8174074f0a3bb7c4cbaa518ce37010d8, type: 3}
-  _position: {x: -322, y: -66}
---- !u!114 &114503468640264092
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1847200804290568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a60e07a22e4c2eb4daf408c131b2d330, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _coolFact: "Any treasure the tomb had wouldn't be found in excavations. Looters
-    had reached the tomb long before Charles.\r\n        "
-  _description: 'Our Mausoleum is in ruins but it''s still popular, especially with
-    Charles Newton of the British Museum digging it up. During your stay, you may
-    get lucky and witness the discovery of another section of it. So far Charles has
-    found walls, stairs, foundation, and decor from the tomb. '
-  _sprite: {fileID: 21300000, guid: 3902b560eece3124ebbaba8bbda93cf4, type: 3}
-  _position: {x: 119, y: -203}
---- !u!114 &114689973294022552
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1937768888185290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42f116f058fdb8f4f85f4a9a4d63f4d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _stories: []
-  _year: 1522
-  _frontImage: {fileID: 21300000, guid: 42cf169bb472e11489c32386022850f2, type: 3}
---- !u!114 &114818520608290296
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1210917010613584}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3c5f75225dd0174fb70a0a0e7171a7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _description: "In the tomb, the capitals were so far above the ground that it\u2019s
-    ionic elements were exaggerated to be seen from below."
-  _sprites:
-  - {fileID: 21300000, guid: deda05006a9b8a14089200e89e07d055, type: 3}
-  - {fileID: 21300000, guid: ae03bf388952454479d8501fe386b338, type: 3}
-  - {fileID: 21300000, guid: 666ed4ac835df344e93dd33554218582, type: 3}
-  - {fileID: 21300000, guid: 3b6ccd63e19544342a0a1a81971bd80e, type: 3}
-  - {fileID: 21300000, guid: 0604020143525c94086b7f40e0be5601, type: 3}
-  - {fileID: 21300000, guid: d1075f94a72e29846b74a75b3f0c8317, type: 3}
-  - {fileID: 21300000, guid: 20f2da097bc8b4f47b053899abc2a311, type: 3}
-  - {fileID: 21300000, guid: 371655c89a934bd4d89888991035f46e, type: 3}
-  - {fileID: 21300000, guid: c9e1af146e670304b875e09400c07bf7, type: 3}
-  - {fileID: 21300000, guid: 8768bc029b52cea4e84b82377a533136, type: 3}
-  - {fileID: 21300000, guid: 6baedb86e087fc3499e338211f801dc7, type: 3}
-  - {fileID: 21300000, guid: 00e1dd21da2281e46b076cded082a3aa, type: 3}
-  - {fileID: 21300000, guid: daed5f572f967d0489cc6fadec20d54d, type: 3}
-  - {fileID: 21300000, guid: f1b82c3c7df20d24c8da5ac7530a3324, type: 3}
-  - {fileID: 21300000, guid: aa140bf53f1989a40a8f8a2b7c555481, type: 3}
-  - {fileID: 21300000, guid: 67719485efc95e6458e048bcf2555479, type: 3}
-  - {fileID: 21300000, guid: d2ce08460242f334e81eaba5fe3ac591, type: 3}
-  - {fileID: 21300000, guid: ea21a7929eb0a204e93f1396d877060a, type: 3}
-  - {fileID: 21300000, guid: a3566e84db9c90540b9e3bcc06584de1, type: 3}
---- !u!114 &114841732663091234
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1450780002562312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3c5f75225dd0174fb70a0a0e7171a7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _description: This Ionic column was one of 36 that bounded the building's 411 pft
-    perimeter.
-  _sprites:
-  - {fileID: 21300000, guid: a0eca9cfd76bf0e4086cab7df25ddba2, type: 3}
-  - {fileID: 21300000, guid: 42bfbd9a393b5fa469795b80f742cce2, type: 3}
-  - {fileID: 21300000, guid: 263b23f9bed7f974c83c12ea849d4592, type: 3}
-  - {fileID: 21300000, guid: 41d3daa9d11e3c649ab3e88fb8eae78e, type: 3}
-  - {fileID: 21300000, guid: dc54d5f53c2f25448813483f50412e36, type: 3}
-  - {fileID: 21300000, guid: ad8181fcecd81df4ca716a969d41cba2, type: 3}
-  - {fileID: 21300000, guid: bdec2bf20ad402547bcdb90866ace5b5, type: 3}
-  - {fileID: 21300000, guid: 5d0e0217615e3ed4cb48748030cf0c83, type: 3}
-  - {fileID: 21300000, guid: 90a7a637edd4b64419cf2abd0d02ea79, type: 3}
-  - {fileID: 21300000, guid: d922543ea38068846a618f93611cbdc1, type: 3}
-  - {fileID: 21300000, guid: cb449484ef77a4b4d9b09aea6f55a00e, type: 3}
-  - {fileID: 21300000, guid: e30002c781e9ceb41931a32ac643bba0, type: 3}
-  - {fileID: 21300000, guid: 5e0d606f73757e745931623228339c7f, type: 3}
-  - {fileID: 21300000, guid: b51e84bc0cccabc43a3f2d19fed72341, type: 3}
-  - {fileID: 21300000, guid: 7b6f31198749560458886648c6965d4f, type: 3}
-  - {fileID: 21300000, guid: 74f7f6ff7f84e5d4fa07878ad6084def, type: 3}
-  - {fileID: 21300000, guid: ad43972ad2c706541b8463b54ec14af6, type: 3}
-  - {fileID: 21300000, guid: f7dd465053a1e5441b15e8918553d63c, type: 3}
-  - {fileID: 21300000, guid: 0faf8754daa5a844b88b944f5ca912b1, type: 3}
---- !u!114 &114859845553468114
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1497075713295022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a60e07a22e4c2eb4daf408c131b2d330, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _coolFact: 
-  _description: You'll notice from the houses in the background that the Mausoleum
-    ruins are being dug up in an empty lot. Charles Newton, a British archeologist,
-    found the tomb by studying early records, and then buying tracts of land that
-    fit the details. This has saved his sponsor (British Museum) a lot of time and
-    money on this project.
-  _sprite: {fileID: 21300000, guid: 84913b20094e62141be313cea4d2757a, type: 3}
-  _position: {x: -26, y: 39}
---- !u!114 &114903408238888082
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1487461557467024}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a60e07a22e4c2eb4daf408c131b2d330, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _coolFact: 
-  _description: 'Nautical lovers should check out the city''s bay area. Located off
-    the Aegean Sea, our last King, Mausolus, enhanced it as a defence tool. The ports
-    help block a channel that enemy ships could use, and the dredged sand from deepening
-    the harbor is now used to protect breakwaters. '
-  _sprite: {fileID: 21300000, guid: d48c392de05e8e14f8c65a0f585c1418, type: 3}
-  _position: {x: 177, y: 57}
---- !u!114 &114978056670019042
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1280933266440702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a60e07a22e4c2eb4daf408c131b2d330, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _coolFact: 'During his reign, King Mausolus promoted Greek democratic principles
-    within his territory. '
-  _description: Looking up at the temple from the courtyard, you'll notice the building's
-    Greek style. Mausolus was such a big fan of their culture, that his wife looked
-    to Greece for talented artists. She settled on the Greek architects, Satyrus and
-    Pythis to build Mausolus's tomb.
-  _sprite: {fileID: 21300000, guid: 6807c1cafdd97d34a91f21f9a24e11e5, type: 3}
-  _position: {x: -82, y: -61}
---- !u!114 &114985449788846846
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1252993876155358}
+  m_GameObject: {fileID: 1744000369247010}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b3c5f75225dd0174fb70a0a0e7171a7c, type: 3}
@@ -1461,3 +1066,398 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 5c7eae6e5f2a8b34bbd2a97d2b7cc82c, type: 3}
   - {fileID: 21300000, guid: 575fd0a6327bfe540afad7947c4ea187, type: 3}
   - {fileID: 21300000, guid: 66b477f5a07933f4084ffbea345afc33, type: 3}
+--- !u!114 &114118326016360152
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1941735472486838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a60e07a22e4c2eb4daf408c131b2d330, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _coolFact: 'The most notable sculptor, Scopas, also directed the rebuilding of Temple
+    of Artemis at Ephesus. '
+  _description: Sculpting enthusiasts will love the tomb's statues of Greek gods and
+    reliefs of Greek mythical battles. Wanting King Mausolus's tomb to emulate Greek
+    culture, his wife hired sculptors to adorn the tomb. These four sculptors, Bryaxis,
+    Leochares, Scopas, and Timotheus, are famous throughout Greece.
+  _sprite: {fileID: 21300000, guid: 95c1a4e3969f30d45a650914c7d02ec7, type: 3}
+  _position: {x: -61, y: -168}
+--- !u!114 &114169572464890214
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1686119642345466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a60e07a22e4c2eb4daf408c131b2d330, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _coolFact: 'After coming into power, Mausolus moved Anatolia''s capital from Mylasa
+    to Halicarnassus. '
+  _description: The capital city of Anatolia has something for everyone, including
+    palaces, theaters, and temples. Our previous king, Mausolus, made sure that even
+    those with low income had access to paved squares, streets, and housing!
+  _sprite: {fileID: 21300000, guid: 29e0ec36463c4e24b99a1a9d8b64b1fb, type: 3}
+  _position: {x: 216.7, y: -40.4}
+--- !u!114 &114178226807772464
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1248818779138598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a60e07a22e4c2eb4daf408c131b2d330, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _coolFact: 
+  _description: You'll notice from the houses in the background that the Mausoleum
+    ruins are being dug up in an empty lot. Charles Newton, a British archeologist,
+    found the tomb by studying early records, and then buying tracts of land that
+    fit the details. This has saved his sponsor (British Museum) a lot of time and
+    money on this project.
+  _sprite: {fileID: 21300000, guid: 84913b20094e62141be313cea4d2757a, type: 3}
+  _position: {x: -26, y: 39}
+--- !u!114 &114237936391894578
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1127978986594226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ed777dd9fe5904dbe3cd8470f9a79d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _icon: {fileID: 21300000, guid: 700a911408e9af44d9324334de785e8d, type: 3}
+  _castName: Tomb of Mausolus
+  _castDescription: "This is a cast of the column design from the Tomb of Mausolus.
+    Officially the first \u201CMausoleum\u201D, it was built in the city of Halicarnassus
+    (now Bodrum, Turkey). "
+  _castLocationTime: "Bodrum, Turkey (c. c. 353 \u2013 350 BC)"
+  _frameCount: 19
+  _startingPoint: 0
+  _buildingMap: {fileID: 21300000, guid: e46a5b7603dc6a2438dce14491df4e11, type: 3}
+  _isVisited: 0
+--- !u!114 &114287781058441682
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1697418334813250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a60e07a22e4c2eb4daf408c131b2d330, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _coolFact: Historians can trace back the term 'Mausoleum' to the tomb of King Mausolus,
+    as a derivative of his name.
+  _description: 'During your stay in Bodrum, Turkey, stop by the ruins of the Mausoleum
+    of Halicarnassus. One of seven ancient world wonders, you can see it''s remaining
+    foundation on site. Afterwards, stop by Bodrum Castle; you can still see the marble
+    used for fortification that was taken from the mausoleum.  '
+  _sprite: {fileID: 21300000, guid: f9abf6882df90d144b56fd2a0621b0c5, type: 3}
+  _position: {x: 149, y: -177}
+--- !u!114 &114310165945402978
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1586947238768780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42f116f058fdb8f4f85f4a9a4d63f4d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _stories: []
+  _year: 1522
+  _frontImage: {fileID: 21300000, guid: 42cf169bb472e11489c32386022850f2, type: 3}
+--- !u!114 &114503007040793276
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1449951660579516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a60e07a22e4c2eb4daf408c131b2d330, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _coolFact: 
+  _description: 'Nautical lovers should check out the city''s bay area. Located off
+    the Aegean Sea, our last King, Mausolus, enhanced it as a defence tool. The ports
+    help block a channel that enemy ships could use, and the dredged sand from deepening
+    the harbor is now used to protect breakwaters. '
+  _sprite: {fileID: 21300000, guid: d48c392de05e8e14f8c65a0f585c1418, type: 3}
+  _position: {x: 177, y: 57}
+--- !u!114 &114505186453151644
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1564547329189320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3c5f75225dd0174fb70a0a0e7171a7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _description: "In the tomb, the capitals were so far above the ground that it\u2019s
+    ionic elements were exaggerated to be seen from below."
+  _sprites:
+  - {fileID: 21300000, guid: deda05006a9b8a14089200e89e07d055, type: 3}
+  - {fileID: 21300000, guid: ae03bf388952454479d8501fe386b338, type: 3}
+  - {fileID: 21300000, guid: 666ed4ac835df344e93dd33554218582, type: 3}
+  - {fileID: 21300000, guid: 3b6ccd63e19544342a0a1a81971bd80e, type: 3}
+  - {fileID: 21300000, guid: 0604020143525c94086b7f40e0be5601, type: 3}
+  - {fileID: 21300000, guid: d1075f94a72e29846b74a75b3f0c8317, type: 3}
+  - {fileID: 21300000, guid: 20f2da097bc8b4f47b053899abc2a311, type: 3}
+  - {fileID: 21300000, guid: 371655c89a934bd4d89888991035f46e, type: 3}
+  - {fileID: 21300000, guid: c9e1af146e670304b875e09400c07bf7, type: 3}
+  - {fileID: 21300000, guid: 8768bc029b52cea4e84b82377a533136, type: 3}
+  - {fileID: 21300000, guid: 6baedb86e087fc3499e338211f801dc7, type: 3}
+  - {fileID: 21300000, guid: 00e1dd21da2281e46b076cded082a3aa, type: 3}
+  - {fileID: 21300000, guid: daed5f572f967d0489cc6fadec20d54d, type: 3}
+  - {fileID: 21300000, guid: f1b82c3c7df20d24c8da5ac7530a3324, type: 3}
+  - {fileID: 21300000, guid: aa140bf53f1989a40a8f8a2b7c555481, type: 3}
+  - {fileID: 21300000, guid: 67719485efc95e6458e048bcf2555479, type: 3}
+  - {fileID: 21300000, guid: d2ce08460242f334e81eaba5fe3ac591, type: 3}
+  - {fileID: 21300000, guid: ea21a7929eb0a204e93f1396d877060a, type: 3}
+  - {fileID: 21300000, guid: a3566e84db9c90540b9e3bcc06584de1, type: 3}
+--- !u!114 &114533817333369848
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1012822893791082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a60e07a22e4c2eb4daf408c131b2d330, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _coolFact: "Any treasure the tomb had wouldn't be found in excavations. Looters
+    had reached the tomb long before Charles.\r\n        "
+  _description: 'Our Mausoleum is in ruins but it''s still popular, especially with
+    Charles Newton of the British Museum digging it up. During your stay, you may
+    get lucky and witness the discovery of another section of it. So far Charles has
+    found walls, stairs, foundation, and decor from the tomb. '
+  _sprite: {fileID: 21300000, guid: 3902b560eece3124ebbaba8bbda93cf4, type: 3}
+  _position: {x: 119, y: -203}
+--- !u!114 &114592159774946372
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1438988380393394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a60e07a22e4c2eb4daf408c131b2d330, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _coolFact: The mounted reliefs detail battles between centaurs, lapiths, Greeks,
+    and Amazons.
+  _description: "During the construction of Bodrum Castle between 1406-1522, reliefs
+    and statues from the Mausoleum of Halicarnassus were taken from its ruins and
+    mounted onto the castle walls. Touring the castle, you'll see that these are some
+    of the details left in place when the castle changed hands from Christians to
+    Muslims.\r\n"
+  _sprite: {fileID: 21300000, guid: 635d8ace6c5e0e748ab9fe6b051636b1, type: 3}
+  _position: {x: 156, y: -122}
+--- !u!114 &114626410084248048
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1883015304520244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a60e07a22e4c2eb4daf408c131b2d330, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _coolFact: 'Artemisia was also Mausolus''s sister, and is rumored to mix a pinch
+    of his ashes with her daily glass of wine. '
+  _description: 'Our newest monument is our tomb for King Mausolus. Known for his
+    military and public works projects during his reign of Anatolia, his death left
+    his wife , Artemisia heartbroken. She commissioned the tomb to honor him, and
+    erected it on a hill overlooking the city. '
+  _sprite: {fileID: 21300000, guid: 3bc0fca1cdcd19741899ac75eb1e780c, type: 3}
+  _position: {x: 40.2, y: 39.3}
+--- !u!114 &114656826095644170
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1465313557422672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a60e07a22e4c2eb4daf408c131b2d330, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _coolFact: 'During his reign, King Mausolus promoted Greek democratic principles
+    within his territory. '
+  _description: Looking up at the temple from the courtyard, you'll notice the building's
+    Greek style. Mausolus was such a big fan of their culture, that his wife looked
+    to Greece for talented artists. She settled on the Greek architects, Satyrus and
+    Pythis to build Mausolus's tomb.
+  _sprite: {fileID: 21300000, guid: 6807c1cafdd97d34a91f21f9a24e11e5, type: 3}
+  _position: {x: -82, y: -61}
+--- !u!114 &114689616714249218
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1244097446399832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a60e07a22e4c2eb4daf408c131b2d330, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _coolFact: The Mausoleum of Halicarnassus withstood many city invasions until it
+    was finally destroyed by an earthquake in 1404.
+  _description: 'Now that the Castle of Bodrum is finished, it makes a nice city attraction.
+    Started in 1406, it took 500 years to finish. Walking in it, you''ll find pieces
+    of marble within the walls. Rumors of a turkish invasion led to taking marble
+    from the ruins of the Mausoleum of Halicarnassus, and use them for fortification. '
+  _sprite: {fileID: 21300000, guid: f32fede83749d1e43bfb7e3c1c31c347, type: 3}
+  _position: {x: -22, y: -38}
+--- !u!114 &114690740717928732
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1450186419929224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3c5f75225dd0174fb70a0a0e7171a7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _description: This Ionic column was one of 36 that bounded the building's 411 pft
+    perimeter.
+  _sprites:
+  - {fileID: 21300000, guid: a0eca9cfd76bf0e4086cab7df25ddba2, type: 3}
+  - {fileID: 21300000, guid: 42bfbd9a393b5fa469795b80f742cce2, type: 3}
+  - {fileID: 21300000, guid: 263b23f9bed7f974c83c12ea849d4592, type: 3}
+  - {fileID: 21300000, guid: 41d3daa9d11e3c649ab3e88fb8eae78e, type: 3}
+  - {fileID: 21300000, guid: dc54d5f53c2f25448813483f50412e36, type: 3}
+  - {fileID: 21300000, guid: ad8181fcecd81df4ca716a969d41cba2, type: 3}
+  - {fileID: 21300000, guid: bdec2bf20ad402547bcdb90866ace5b5, type: 3}
+  - {fileID: 21300000, guid: 5d0e0217615e3ed4cb48748030cf0c83, type: 3}
+  - {fileID: 21300000, guid: 90a7a637edd4b64419cf2abd0d02ea79, type: 3}
+  - {fileID: 21300000, guid: d922543ea38068846a618f93611cbdc1, type: 3}
+  - {fileID: 21300000, guid: cb449484ef77a4b4d9b09aea6f55a00e, type: 3}
+  - {fileID: 21300000, guid: e30002c781e9ceb41931a32ac643bba0, type: 3}
+  - {fileID: 21300000, guid: 5e0d606f73757e745931623228339c7f, type: 3}
+  - {fileID: 21300000, guid: b51e84bc0cccabc43a3f2d19fed72341, type: 3}
+  - {fileID: 21300000, guid: 7b6f31198749560458886648c6965d4f, type: 3}
+  - {fileID: 21300000, guid: 74f7f6ff7f84e5d4fa07878ad6084def, type: 3}
+  - {fileID: 21300000, guid: ad43972ad2c706541b8463b54ec14af6, type: 3}
+  - {fileID: 21300000, guid: f7dd465053a1e5441b15e8918553d63c, type: 3}
+  - {fileID: 21300000, guid: 0faf8754daa5a844b88b944f5ca912b1, type: 3}
+--- !u!114 &114696797650393454
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1390180797869354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42f116f058fdb8f4f85f4a9a4d63f4d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _stories: []
+  _year: 1852
+  _frontImage: {fileID: 21300000, guid: 21c136ed856112e4f805dfa4776d3748, type: 3}
+--- !u!114 &114832590834148560
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1080287494093022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a60e07a22e4c2eb4daf408c131b2d330, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _coolFact: 
+  _description: 'Now that we''re a part of the Ottoman empire, several of the city''s
+    buildings have been repurposed. Bodrum Castle, built by the Knights of St. John
+    of Malta between 1406-1522, has converted into a mosque by turkish Muslims. '
+  _sprite: {fileID: 21300000, guid: 8174074f0a3bb7c4cbaa518ce37010d8, type: 3}
+  _position: {x: -322, y: -66}
+--- !u!114 &114836394029293926
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1021724906739418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42f116f058fdb8f4f85f4a9a4d63f4d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _stories: []
+  _year: 1803
+  _frontImage: {fileID: 21300000, guid: 4363cf8837da20f41ad08b040f19c660, type: 3}
+--- !u!114 &114910751488937662
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1517860930389832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42f116f058fdb8f4f85f4a9a4d63f4d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _stories: []
+  _year: 2017
+  _frontImage: {fileID: 21300000, guid: ae7dfc164dec2844ebc2d358b4823e55, type: 3}
+--- !u!114 &114974142484359052
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1974292830966158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3c5f75225dd0174fb70a0a0e7171a7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _description: Tap on the hotspots to learn about this cast.
+  _sprites:
+  - {fileID: 21300000, guid: 7ec961489a61b944182b48a55ab9b281, type: 3}
+  - {fileID: 21300000, guid: 0305d4ab4acaf1345bf28edf1f29ad18, type: 3}
+  - {fileID: 21300000, guid: 89f8614827d06a94787e5294f440f5b8, type: 3}
+  - {fileID: 21300000, guid: e300cb314bb2b914eaa8d567763626a1, type: 3}
+  - {fileID: 21300000, guid: f6e6ad04819f3e84eb37df91782c9f77, type: 3}
+  - {fileID: 21300000, guid: ef3c026391b414242b7731c88dd48b50, type: 3}
+  - {fileID: 21300000, guid: 1bdb518cf23091a4a8ce52cbefbaedbb, type: 3}
+  - {fileID: 21300000, guid: 1bcf6fcb73832e24f8aafb7a09f68719, type: 3}
+  - {fileID: 21300000, guid: 09456edb9ccfd734d8c24dd2c1e145c4, type: 3}
+  - {fileID: 21300000, guid: 5db33dea328707944bca90a9a8af3d5b, type: 3}
+  - {fileID: 21300000, guid: b80f49f62611c524fb99d2cacdfba4af, type: 3}
+  - {fileID: 21300000, guid: 33cbea685ab796940bcc9521bf55d336, type: 3}
+  - {fileID: 21300000, guid: 96c60917e3e2af04a827b0813997c518, type: 3}
+  - {fileID: 21300000, guid: f3819d002a380c04aa4e23e20eec6ab5, type: 3}
+  - {fileID: 21300000, guid: 8cbc8211371b15c49ad5c12a2f8989ab, type: 3}
+  - {fileID: 21300000, guid: d782069c761017941ac8ed980cbb3673, type: 3}
+  - {fileID: 21300000, guid: 056d8916293eb23438933319d932e5c0, type: 3}
+  - {fileID: 21300000, guid: ae0dca4ccb92ccf41ac05c555b40680d, type: 3}
+  - {fileID: 21300000, guid: 6ac45bd7900cf39499ca7fc71ef0c99b, type: 3}
+--- !u!114 &114991715358442194
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1234565229117816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42f116f058fdb8f4f85f4a9a4d63f4d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _stories: []
+  _year: 350 BC
+  _frontImage: {fileID: 21300000, guid: 8349ccd461a95a140b08f34d920d5382, type: 3}

@@ -15,8 +15,8 @@ public static class AssetManager {
 		AssetDatabase.ImportAsset(path, ImportAssetOptions.ForceUpdate);
 	}
 
-	public static void CreatePrefab(Transform marker) {
-		GameObject prefab = PrefabUtility.CreatePrefab("Assets/Prefabs/Marker.prefab", (GameObject)marker.gameObject, ReplacePrefabOptions.ReplaceNameBased);
+	public static void CreatePrefab(Transform marker, string castId) {
+		GameObject prefab = PrefabUtility.CreatePrefab("Assets/Prefabs/Marker" + castId + ".prefab", (GameObject)marker.gameObject, ReplacePrefabOptions.ReplaceNameBased);
 		string assetPath = AssetDatabase.GetAssetPath(prefab.GetInstanceID());
 		AssetImporter.GetAtPath(assetPath).SetAssetBundleNameAndVariant("Marker", "");
 	}

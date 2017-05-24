@@ -10,17 +10,19 @@ public class Bundler : MonoBehaviour {
 
 	// Use this for initialization
 
-	static GameObject marker, markerModel, building, buildingModel, anim, cast, castModel, hotspot2DContainer, story, wrapper, defaultSprites;
+	GameObject marker, markerModel, building, buildingModel, anim, cast, castModel, hotspot2DContainer, story, wrapper, defaultSprites;
 
-	static Hashtable markerInfo = new Hashtable();
+	Hashtable markerInfo = new Hashtable();
 
-	static Hashtable[] postcardsInfo;
+	Hashtable[] postcardsInfo;
 
-	static Hashtable castInfo = new Hashtable();
+	Hashtable castInfo = new Hashtable();
 
-	static Shader buildingShader;
+	Shader buildingShader;
 
-	static int castType;
+	int castType;
+
+	public string castId;
 
 
 	void Start () {
@@ -32,7 +34,7 @@ public class Bundler : MonoBehaviour {
 		
 	}
 
-	static void Init() {
+	void Init() {
 		buildingShader = Shader.Find("Custom/Clip");
 #if UNITY_EDITOR
 		InitSprites();
@@ -46,16 +48,16 @@ public class Bundler : MonoBehaviour {
 		InitCastModel();
 		Debug.Log("model initiated");
 #if UNITY_EDITOR
-		AssetManager.CreatePrefab(marker.transform);
+		AssetManager.CreatePrefab(marker.transform, castId);
 #endif
 		
 		
 	}
 
-	static void InitGameObjectStructure() {
+	void InitGameObjectStructure() {
 		// wrapper = CreateEmptyGameObject("Markers", null);
 
-		marker = CreateEmptyGameObject("Marker", null);
+		marker = CreateEmptyGameObject("Marker" + castId, null);
 
 		building = CreateEmptyGameObject("Building", marker);
 		buildingModel = CreateEmptyGameObject("BuildingModel", building);
@@ -70,21 +72,21 @@ public class Bundler : MonoBehaviour {
 		story = CreateEmptyGameObject("Story", marker);
 	}
 
-	static void InitBuildingModel() {
+	void InitBuildingModel() {
 		GameObject restInBuidling = CreateEmptyGameObject("rest", buildingModel);
 		GameObject castInBuilding = CreateEmptyGameObject("cast", buildingModel);
 
-		Mesh[] buildingMeshes = Resources.LoadAll<Mesh>("cast/building/buildingModel");
-		Material castMaterial = Resources.Load<Material>("cast/building/materials/cast/cast");
-		Material[] buildingMaterials = Resources.LoadAll<Material>("cast/building/materials/building");
+		Mesh[] buildingMeshes = Resources.LoadAll<Mesh>("cast" + castId + "/building/buildingModel");
+		Material castMaterial = Resources.Load<Material>("cast" + castId + "/building/materials/cast/cast");
+		Material[] buildingMaterials = Resources.LoadAll<Material>("cast" + castId + "/building/materials/building");
 
 		AddMesh(restInBuidling, buildingMeshes[0], buildingMaterials);
 		AddMesh(castInBuilding, buildingMeshes[1], castMaterial);
 		
 	}
 
-	static void InitCastModel() {
-		Mesh castMesh = Resources.Load<Mesh>("cast/model/castModel");
+	void InitCastModel() {
+		Mesh castMesh = Resources.Load<Mesh>("cast" + castId + "/model/castModel");
 		GameObject castModelObj = CreateEmptyGameObject("Model", castModel);
 		AddMesh(castModelObj, castMesh);
 		if (castType == 0) {
@@ -94,11 +96,11 @@ public class Bundler : MonoBehaviour {
 		}
 	}
 
-	static void InitCastInfo() {
+	void InitCastInfo() {
 		
 		// defaultSprites = CreateEmptyGameObject("DefaultSprites", cast);
 
-		Sprite[] defaultSp = Resources.LoadAll<Sprite>("cast/model/rotatedView");
+		Sprite[] defaultSp = Resources.LoadAll<Sprite>("cast" + castId + "/model/rotatedView");
 
 		Hotspot2D defaultHotspot = defaultSprites.AddComponent<Hotspot2D>();
 
@@ -115,11 +117,11 @@ public class Bundler : MonoBehaviour {
 
 	}
 
-	static void InitMarkerInfo() {
+	void InitMarkerInfo() {
 		ApplyScript(marker, typeof(Marker), markerInfo);
 	}
 
-	static void InitStory() {
+	void InitStory() {
 		int storyCount = postcardsInfo.Length;
 
 		for (int i = 0; i < storyCount; i++) {
@@ -136,7 +138,7 @@ public class Bundler : MonoBehaviour {
 		}
 	}
 
-	static XmlDocument ReadXML(string path) {
+	XmlDocument ReadXML(string path) {
 		Debug.Log(path);
 		TextAsset textAsset = Resources.Load<TextAsset>(path);  
 		XmlDocument xmldoc = new XmlDocument ();
@@ -145,11 +147,11 @@ public class Bundler : MonoBehaviour {
 
 	}
 
-	static void InitData() {
+	void InitData() {
 		// cast data
 		XmlDocument xmldoc;
 		
-		xmldoc = ReadXML("cast/castInfo");
+		xmldoc = ReadXML("cast" + castId + "/castInfo");
 		XmlNode cast =  xmldoc.SelectSingleNode("cast");
 
 		castType = int.Parse(cast.SelectSingleNode("castType").InnerText);
@@ -166,12 +168,12 @@ public class Bundler : MonoBehaviour {
 		markerInfo.Add("_castLocationTime", locationTime);
 
 		// castMap.png
-		markerInfo.Add("_icon", Resources.Load<Sprite>("cast/castIcon"));
+		markerInfo.Add("_icon", Resources.Load<Sprite>("cast" + castId + "/castIcon"));
 		// castIcon.png
-		markerInfo.Add("_buildingMap", Resources.Load<Sprite>("cast/castMap"));
+		markerInfo.Add("_buildingMap", Resources.Load<Sprite>("cast" + castId + "/castMap"));
 
 		// casts
-		xmldoc = ReadXML("cast/model/hotspots/hotspotsInfo");
+		xmldoc = ReadXML("cast" + castId + "/model/hotspots/hotspotsInfo");
 		XmlNode model =  xmldoc.SelectSingleNode("cast");
 		XmlNodeList castHotspotList = model.SelectNodes("hotspot");
 		int castHotspotCount = castHotspotList.Count;
@@ -190,7 +192,7 @@ public class Bundler : MonoBehaviour {
 			string id = hotspotNode.SelectSingleNode("id").InnerText;
 			hotspot.Add("_position", pos);
 			hotspot.Add("_description", hotspotNode.SelectSingleNode("description").InnerText);
-			hotspot.Add("_sprites", Resources.LoadAll<Sprite>("cast/model/hotspots/hotspot" + id));
+			hotspot.Add("_sprites", Resources.LoadAll<Sprite>("cast" + castId + "/model/hotspots/hotspot" + id));
 			castHotspots[i] = hotspot;
 		}
 
@@ -206,9 +208,9 @@ public class Bundler : MonoBehaviour {
 			// each postcard
 			
 			string folderName = "postcard" + i.ToString().PadLeft(3, '0');
-			string folderPath = "cast/story/" + folderName;
+			string folderPath = "cast" + castId + "/story/" + folderName;
 			
-			xmldoc = ReadXML("cast/story/" + folderName + "/postcardInfo");
+			xmldoc = ReadXML("cast" + castId + "/story/" + folderName + "/postcardInfo");
 			XmlNode postcardNode =  xmldoc.SelectSingleNode("postcard");
 			XmlNodeList storyHotspotList =  postcardNode.SelectNodes("hotspot");
 			
@@ -242,7 +244,7 @@ public class Bundler : MonoBehaviour {
 
 	}
 
-	static void ApplyScript(GameObject obj, Type script, Hashtable param)  {
+	void ApplyScript(GameObject obj, Type script, Hashtable param)  {
 		var scr = obj.AddComponent(script);
 		foreach(string key in param.Keys) {
 			var val = param[key];
@@ -253,7 +255,7 @@ public class Bundler : MonoBehaviour {
 		}
 	}
 
-	static void AddMesh(GameObject obj, Mesh mesh) {
+	void AddMesh(GameObject obj, Mesh mesh) {
 		MeshFilter meshFilter = obj.AddComponent<MeshFilter>();
 		meshFilter.mesh = mesh;
 		// MeshRenderer renderer = obj.AddComponent<MeshRenderer>();
@@ -261,7 +263,7 @@ public class Bundler : MonoBehaviour {
 	}
 
 	
-	static void AddMesh(GameObject obj, Mesh mesh, Material mat) {
+	void AddMesh(GameObject obj, Mesh mesh, Material mat) {
 		MeshFilter meshFilter = obj.AddComponent<MeshFilter>();
 		meshFilter.mesh = mesh;
 		MeshRenderer renderer = obj.AddComponent<MeshRenderer>();
@@ -270,7 +272,7 @@ public class Bundler : MonoBehaviour {
 		
 	}
 
-	static void AddMesh(GameObject obj, Mesh mesh, Material[] mats) {
+	void AddMesh(GameObject obj, Mesh mesh, Material[] mats) {
 		MeshFilter meshFilter = obj.AddComponent<MeshFilter>();
 		meshFilter.mesh = mesh;
 		MeshRenderer renderer = obj.AddComponent<MeshRenderer>();
@@ -280,7 +282,7 @@ public class Bundler : MonoBehaviour {
 		renderer.materials = mats;
 	}
 
-	static GameObject CreateEmptyGameObject(string name, GameObject parent) {
+	GameObject CreateEmptyGameObject(string name, GameObject parent) {
 		GameObject g = new GameObject(name);
 		if (parent) {
 			g.transform.parent = parent.transform;
@@ -290,7 +292,7 @@ public class Bundler : MonoBehaviour {
 
 	// helpers
 
-	static void DirSearch(string sDir, List<string> pathList){
+	void DirSearch(string sDir, List<string> pathList){
 		try
 		{
 			foreach (string d in Directory.GetDirectories(sDir))
@@ -305,15 +307,15 @@ public class Bundler : MonoBehaviour {
 		}
 		catch (System.Exception excpt)
 		{
-			Console.WriteLine(excpt.Message);
+			// Console.WriteLine(excpt.Message);
 		}
 
 	}
 #if UNITY_EDITOR
-	static public void InitSprites() {
+	public void InitSprites() {
 		List<string> filePaths = new List<string>();
 
-		DirSearch("Assets/Resources/cast", filePaths);
+		DirSearch("Assets/Resources/cast" + castId, filePaths);
 
 		Debug.Log(filePaths.Count);
 
